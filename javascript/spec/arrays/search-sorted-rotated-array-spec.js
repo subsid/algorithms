@@ -16,4 +16,12 @@ describe('searchSortedRotatedArray', () => {
       expect(searchSortedRotatedArray(input, 70)).toEqual(6);
     });
   });
+
+  describe('base case', () => {
+    const input = [70];
+
+    it('should handle 1 element case', () => {
+      expect(searchSortedRotatedArray(input, 70)).toEqual(0);
+    });
+  });
 });
