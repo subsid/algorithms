@@ -1,6 +1,6 @@
 const findSmallestCommonInSortedArrays = require('../../src/arrays/smallest-common-number');
 
-fdescribe('findSmallestCommonInSortedArrays', () => {
+describe('findSmallestCommonInSortedArrays', () => {
   it('should find smallest when they exist at different indices', () => {
     const a1 = [10, 20, 30, 40, 50];
     const a2 = [11, 22, 27, 40, 50];
