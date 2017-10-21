@@ -1,6 +1,7 @@
 // Given a sorted array of integers, return the low and high index of the given
 // key. Return -1 if not found. The array length can be in millions with lots
 // of duplicates.
+
 const findLowHighIndex = function findLowHighIndex(array, key) {
   // find low with binary search.
   // find high with binary search.
