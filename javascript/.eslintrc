@@ -11,5 +11,6 @@
     "no-unused-vars": ["error", { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }],
     "no-plusplus": ["error", {"allowForLoopAfterthoughts": true}],
     "no-param-reassign": ["off"],
+    "function-paren-newline": ["off"],
   }
 }
