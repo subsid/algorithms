@@ -1,4 +1,4 @@
-const maxSubSequence = require('../../src/arrays/max-subsequence');
+const maxSubSequence = require('../../src/dp/max-subsequence');
 
 describe('maxSubSequence', () => {
   it('should find the maxSubSequence in the given array with negatives', () => {
