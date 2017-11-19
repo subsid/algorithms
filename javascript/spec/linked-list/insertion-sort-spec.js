@@ -1,7 +1,7 @@
 const LinkedList = require('../../src/data-structures/linked-list');
 const insertionSort = require('../../src/linked-list/insertion-sort');
 
-fdescribe('insertionSort', () => {
+describe('insertionSort', () => {
   it('should sort given linkedlist', () => {
     const ll = new LinkedList(10);
     ll.push(4);
