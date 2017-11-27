@@ -6,6 +6,7 @@ function findMaxInSidingWindow(array, windowSize) {
   const result = [];
   const _window = [];
 
+  // Find max in first window.
   for (let i = 0; (i < windowSize) && (i < array.length); i++) {
     while (_window.length > 0 &&
       _window[_window.length - 1] < array[i]
