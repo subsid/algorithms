@@ -65,16 +65,68 @@
 ## LinkedList
 
 * Add two integers
+  - Have 2 pointers, one for each list, add the numbers at the same index on both lists and keep track of carry.
+  - Time O(n)
+  - Space O(1)
 * Deep copy with arbitrary pointers
+  - Can be done in 2 passes.
+  - Firt pass: create a copy of the linked list. Also create a Map(ll_old_node, ll_new_node). Don't mess with arbitrary_pointer.
+  - Second pass through new list: Update arbitrary pointer of each node to point to new list.
+  - Time O(n)
+  - Space O(n)
+  - There is a more fancy way to do this, without the additional memory. (But I think that's not elegant)
 * Delete node
+  - Straightforward method with current and previous pointers.
+  - Time O(n)
+  - Space O(1)
 * Insertion sort
+  - For every node in list, add it to a sorted list, using insertion sort technique.
+  - Time O(n^2)
+  - Space O(1)
 * Intersection point
+  - Move forward in the longer list, until lengths of 2 lists are equal.
+  - move together, one by one and see if a node is the same.
+  - Time O(m + n)
+  - Space O(1)
 * Merge sort
+  - standard merge sort. Split into 2, sort left and right, merge them.
+  - Classic technique to find middle. Have 2 pointers, 1 going twice as fast as the other.
+  - Time O(nlogn)
+  - Space O(1)
 * Merge sorted lists
+  - Standard merge technique.
+  - Have a pointer on each list, move forward on the list with the smaller number.
+  - Time O(m + n)
+  - Space O(1)
 * Nth from last
+  - Classic technique, have 2 pointers with |p1| - |p2| = n. When 1st pointer reaches last, second one points to N.
+  - Time O(n)
+  - Space O(1)
 * Remove duplicates
+  - Add data from node to a Map. If data is seen in map, delete it.
+  - Time O(n)
+  - Space O(n)
 * Reverse even nodes
+  - create 2 lists from original. One for odds and one for evens.
+  - Reverse nodes in even.
+  - merge the 2 lists alternatively.
+  - Time O(n)
+  - Space O(1)
 * Reverse K elements
+  - Idea is simple, just pick k successive nodes, reverse them, move to next set of k, reverse them etc.
+  - we'll have a few pointers.
+  - Time O(n)
+  - Space O(1)
 * Reverse singly linked list
+  - Fairly simple, have current, previous and change next accordingly.
+  - Time O(n)
+  - Space O(1)
 * Rotate linked list
+  - Find rotation point, and adjust some pointers.
+  - Time O(n)
+  - Space O(1)
 * Swap Nth with head.
+  - Find (n-1)th node.
+  - Some pointer adjustments
+  - Time O(n)
+  - Space O(1)
