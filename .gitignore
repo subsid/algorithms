@@ -1,1 +1,39 @@
-.DS_STORE
+tmp
+npm-debug.log
+profiling/
+coverage/
+.nyc_output/
+dist/
+
+# All other idea project files are safe to commit
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/mongoSettings.xml
+.idea/tasks.xml
+.idea/watcherTasks.xml
+.idea/deployment.xml
+.idea/markdown-navigator/
+.idea/markdown-exported-files.xml
+.idea/markdown-navigator.xml
+.idea/sonarlint/
+.idea/copyright/
+.idea/dictionaries
+.idea/sonarlint/
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/markdown-navigator/*
+
+## Node
+node_modules/
+shift-workday-event-gen/node_modules
+
+# vim
+*.swp
+.scannerwork/
+
+#yarn
+yarn.lock

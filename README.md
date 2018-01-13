@@ -130,3 +130,5 @@
   - Some pointer adjustments
   - Time O(n)
   - Space O(1)
+
+## Math and Stats
