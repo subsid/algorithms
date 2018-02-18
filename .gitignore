@@ -37,3 +37,6 @@ shift-workday-event-gen/node_modules
 
 #yarn
 yarn.lock
+
+.DS_STORE
+.vscode/
