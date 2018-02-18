@@ -14,6 +14,7 @@
 * Search sorted rotated array
 * Find smallest common number in sorted arrays.
 * 2-sum
+* Most frequent k
 
 ## LinkedList
 
@@ -55,3 +56,8 @@
 ## Trees
 * Inorder iterator
 * Connect siblings
+
+## Miscellaneous
+* Print matrix spiral
+* Maximize savings
+* Reorganize string
