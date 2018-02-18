@@ -1,3 +1,8 @@
+// Find (n-1)th node.
+// Some pointer adjustments
+// Time O(n)
+// Space O(1)
+
 function swapNthWithHead(head, n) {
   if (head === null) {
     return null;

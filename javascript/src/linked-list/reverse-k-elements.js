@@ -1,3 +1,8 @@
+// Idea is simple, just pick k successive nodes, reverse them, move to next set of k, reverse them etc.
+// we'll have a few pointers.
+// Time O(n)
+// Space O(1)
+
 function reverseKList(h, k) {
   if (!h) {
     return h;

@@ -1,4 +1,8 @@
 // Given an integer array, sort it in ascending order using quicksort.
+// Standard quicksort implementation.
+// For fun, I've also added threeway partition quicksort. (which is really cool)
+// Time O(nlgn) on average.
+// Space O(lgn)
 
 function swap(array, i, j) {
   const temp = array[i];

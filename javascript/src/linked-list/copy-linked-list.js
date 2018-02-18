@@ -4,6 +4,13 @@
 // Create copy of list, leaving arbitrary points alone.
 // While copying, create Map(l1, l1'). i.e new node corresponding to old one.
 // Rewire arbitrary in newnodes to point to newnodes.
+// Can be done in 2 passes.
+// Firt pass: create a copy of the linked list. Also create a Map(ll_old_node, ll_new_node). Don't mess with arbitrary_pointer.
+// Second pass through new list: Update arbitrary pointer of each node to point to new list.
+// Time O(n)
+// Space O(n)
+// There is a more fancy way to do this, without the additional memory. (But I think that's not elegant)
+
 function copyList(h) {
   if (!h) {
     return null;

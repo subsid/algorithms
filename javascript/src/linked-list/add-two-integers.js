@@ -1,6 +1,12 @@
 // Given head pointers of two linked lists where each linked list represents an
 // integer number (each node is a digit), add them and return the resulting linked
 // list.
+//
+// Have 2 pointers, one for each list,
+// add the numbers at the same index on both lists and keep track of carry.
+// Time O(n)
+// Space O(1)
+
 function addTwoIntegers(h1, h2) {
   if (!h1 || !h2) {
     return h1 || h2;

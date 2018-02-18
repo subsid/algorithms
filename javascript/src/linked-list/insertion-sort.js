@@ -1,4 +1,7 @@
 // Mutations are so hard to reason with! Should avoid this style.
+// For every node in list, add it to a sorted list, using insertion sort technique.
+// Time O(n^2)
+// Space O(1)
 function addToSorted(node, head) {
   if (!head || node.value <= head.value) {
     node.next = head;

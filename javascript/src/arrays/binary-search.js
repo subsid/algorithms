@@ -1,4 +1,6 @@
 // Given a sorted array of integers, return the index of the given key. Return -1 if not found.
+// Time O(logn)
+// Space O(1) (iterative) O(logn) (recursive)
 
 // Non-Recursive version
 const binarySearch = function binarySearch(arr, key) {

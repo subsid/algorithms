@@ -1,5 +1,8 @@
 // Search a given number in a sorted array that has been rotated by some arbitrary number.
 // Key Idea: One half is always sorted
+// One half is always sorted. Use binary search with some modifications.
+// Time O(logn)
+// Space O(logn) (or O(1))
 
 function searchSortedRotatedArray(array, key) {
   let start = 0;

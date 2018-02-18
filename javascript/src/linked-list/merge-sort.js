@@ -1,5 +1,10 @@
 // Given head pointer of a linked sort, sort linked list (in ascending order)
 // using merge sort and return new head pointer of sorted linked list.
+//
+// standard merge sort. Split into 2, sort left and right, merge them.
+// Classic technique to find middle. Have 2 pointers, 1 going twice as fast as the other.
+// Time O(nlogn)
+// Space O(1)
 function splitList(h) {
   if (!h || !h.next) {
     return [h, null];

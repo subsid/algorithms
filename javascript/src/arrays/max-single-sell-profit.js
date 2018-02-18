@@ -1,5 +1,8 @@
 // Given a list of stock prices for n days, find the maximum profit with a
 // single buy/sell activity.
+// Kadane's algorithm
+// Time Complexity O(n)
+// Space Complexity O(1)
 
 function findMaxSingleSellProfit(array) {
   if (array.length < 2) {

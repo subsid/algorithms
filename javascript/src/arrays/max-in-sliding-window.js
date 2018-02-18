@@ -1,6 +1,16 @@
 // Given a large array of integers and a window of size 'w',
 // find the current maximum in the window as the window
 // slides through the entire array.
+//
+// Use a dequeue (or double ll). Iterate i:
+// remove from tail of ll all elements that are less than ith element.
+// If head element equals element at i-1, pop it. (As it is outside the window now)
+//
+// Time O(n) (Need to squint a little for this, the number of comparisons
+// will be constant per iteration, and each element is added and removed
+// atmost once. I think it is similar to heap sort analysis. Surprisingly
+// didn't find a good resource to show this)
+// Space O(w)
 
 function findMaxInSidingWindow(array, windowSize) {
   const result = [];

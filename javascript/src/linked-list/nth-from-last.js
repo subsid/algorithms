@@ -1,5 +1,8 @@
 // Given a singly linked list, return nth from last node. Return null if 'n' is
 // out-of-bounds.
+// Classic technique, have 2 pointers with |p1| - |p2| = n. When 1st pointer reaches last, second one points to N.
+// Time O(n)
+// Space O(1)
 
 function findNthFromLast(h, n) {
   if (h === null) {

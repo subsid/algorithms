@@ -1,5 +1,8 @@
 // Given the pointer/reference to the head of a singly linked list, reverse it
 // and return the pointer/reference to the head of reversed linked list.
+// Fairly simple, have current, previous and change next accordingly.
+// Time O(n)
+// Space O(1)
 
 function reverseSinglyLinkedList(head) {
   if (!head || head.next === null) {

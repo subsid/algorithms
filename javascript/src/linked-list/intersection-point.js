@@ -1,5 +1,9 @@
 // Given head nodes of two linked lists that may or may not intersect, find out
 // if they intersect and return the point of intersection; return null otherwise.
+// Move forward in the longer list, until lengths of 2 lists are equal.
+// move together, one by one and see if a node is the same.
+// Time O(m + n)
+// Space O(1)
 
 function findLength(h) {
   let l = 0;

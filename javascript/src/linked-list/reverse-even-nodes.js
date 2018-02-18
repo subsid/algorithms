@@ -1,4 +1,9 @@
 // Given a singly linked list, reverse nodes at even indices.
+// create 2 lists from original. One for odds and one for evens.
+// Reverse nodes in even.
+// merge the 2 lists alternatively.
+// Time O(n)
+// Space O(1)
 function reverseList(h) {
   if (!h || !h.next) {
     return h;

@@ -1,4 +1,7 @@
 // Given an array of integers, rotate the array by 'N' elements.
+// Standard trick. Reverse array. Reverse till rotation point. Reverse after rotation point.
+// Time O(n)
+// Space O(1)
 
 const rotateArrayInPlace = function rotateArray(array, N) {
   const reverseArray = (start, end) => {

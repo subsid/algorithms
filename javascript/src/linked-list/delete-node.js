@@ -1,5 +1,8 @@
 // Given head of a linked list and a key, delete node with this given key from
 // the linked list.
+// Straightforward method with current and previous pointers.
+// Time O(n)
+// Space O(1)
 
 function deleteNode(head, key) {
   if (!head) {

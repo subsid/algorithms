@@ -1,5 +1,8 @@
 // Given head node of a singly linked list and an integer 'n', rotate linked
 // list by 'n'.
+// Find rotation point, and adjust some pointers.
+// Time O(n)
+// Space O(1)
 
 function findLength(h) {
   let tail = h;

@@ -1,5 +1,9 @@
 // Given two sorted linked lists, merge them such that resulting linked list is
 // also sorted.
+// Standard merge technique.
+// Have a pointer on each list, move forward on the list with the smaller number.
+// Time O(m + n)
+// Space O(1)
 
 function mergeSortedLists(h1, h2) {
   if ((h1 === null) || (h2 === null)) {

@@ -1,5 +1,8 @@
 // Given an array of integers and a value, determine if there are any two
 // integers in the array which sum equal to the given value.
+// for each value in array, check if tot - value is in hash map, else just add to hashmap.
+// Time O(n)
+// Space O(1)
 
 function sumOfTwoValues(array, target) {
   const map = new Map();

@@ -1,5 +1,10 @@
 // Given an integer array, move all elements containing '0' to the left while
 // maintaining the order of other elements in the array.
+//
+// Keep 2 pointers i, j and start from end. i is used for iterating.
+// j will point at zero. swap i and j for every non-zero i, if i not equals j. done!
+// Time O(n)
+// Space O(1)
 
 function moveZerosLeft(array) {
   if (array.length <= 1) {

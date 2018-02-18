@@ -1,6 +1,10 @@
 // Given an array (list) of intervals as input where each interval has a start
 // and end timestamps. Input array is sorted by starting timestamps. You are
 // required to merge overlapping intervals and return output array (list).
+//
+// Just remember the last s, e and keep comparing.
+// Time O(n)
+// Space O(1)
 
 function mergeOverlappingIntervals(intervals) {
   if (intervals.length < 2) {

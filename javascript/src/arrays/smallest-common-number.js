@@ -4,6 +4,8 @@
 //
 // Key Idea: Increase the smallest number's index
 // everytime till the three numbers are equal.
+// Time O(n)
+// Space O(1)
 
 function findSmallestCommonInSortedArrays(a1, a2, a3) {
   let i = 0;
